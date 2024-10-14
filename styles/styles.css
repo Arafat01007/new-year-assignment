@@ -48,6 +48,7 @@ header {
 .off-section {
     font-family: "inter", sans-serif;
 }
+
 .off-content {
     width: 50%;
     text-align: center;
@@ -75,6 +76,53 @@ header {
     font-size: 48px;
     font-weight: 700;
 }
+
 .off-section img {
     width: 100%;
+}
+
+/* welcome to party section */
+
+.welcome-banner {
+    border-radius: 20px;
+    margin: auto;
+    width: 1320px;
+    height: 600px;
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Vectorrr.png');
+    display: flex;
+}
+
+.welcome-h1 {
+    color: #FFF;
+    font-family: "Merriweather";
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+    margin-bottom: 24px;
+}
+
+.welcome-p {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: "Inter";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 35px;
+}
+
+.welcome-a {
+    color: #FFF;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 20px;
+    font-weight: 700;   
+    text-decoration: none;
+}
+.welcome-content {
+    margin: auto;
+    padding: 126px;
+}
+.welcome-24 {
+margin: 68px 100px 68px 0;
 }
