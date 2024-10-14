@@ -116,13 +116,111 @@ header {
     text-align: center;
     font-family: "Inter";
     font-size: 20px;
-    font-weight: 700;   
+    font-weight: 700;
     text-decoration: none;
 }
+
 .welcome-content {
     margin: auto;
     padding: 126px;
 }
+
 .welcome-24 {
-margin: 68px 100px 68px 0;
+    margin: 68px 100px 68px 0;
+}
+
+/*------- party shedule section related styles -----*/
+
+.time-shedule {
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    width: 1320px;
+    margin: auto;
+    border-radius: 16px;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.shedule-h2 {
+    color: #070211;
+    font-family: "Inter";
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+}
+
+.shedule-h2 span {
+    color: red;
+}
+
+.shedule-btn {
+    color: #FFF;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 8px;
+    background: #F00;
+    border: none;
+    padding: 16px 32px;
+    cursor: pointer;
+    margin-top: 48px;
+}
+
+/* best offer section related styles */
+.best-offer-section {
+    margin: 130px 0;
+}
+
+.best-offer-container {
+    margin: auto;
+}
+
+.best-offer-content {
+    justify-content: center;
+    display: flex;
+    margin: 140px;
+    gap: 120px;
+}
+
+.best-h2 {
+    color: #F00;
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.best-h1 {
+    color: #070211;
+    font-family: "Merriweather";
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.best-p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: "Inter";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 40px;
+}
+
+.best-img {
+    padding: 1%;
+    border-radius: 463px;
+    border: 15px solid #F00;
+}
+
+.best-h2-2 {
+    color: #F00;
+    font-family: "Inter";
+    font-size: 48px;
+    font-weight: 700;
+}
+.best-offer {
+    margin-top:80px;
+
+
 }
