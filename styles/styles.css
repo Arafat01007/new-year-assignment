@@ -8,6 +8,10 @@ section {
     margin: 80px 0;
 }
 
+.container {
+    margin: auto;
+}
+
 /* header section */
 .header-banner {
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Banner\ Image.png');
@@ -75,6 +79,7 @@ header {
     text-align: center;
     font-size: 48px;
     font-weight: 700;
+    margin-bottom: 48px;
 }
 
 .off-section img {
@@ -171,9 +176,7 @@ header {
     margin: 130px 0;
 }
 
-.best-offer-container {
-    margin: auto;
-}
+
 
 .best-offer-content {
     justify-content: center;
@@ -219,8 +222,42 @@ header {
     font-size: 48px;
     font-weight: 700;
 }
+
 .best-offer {
-    margin-top:80px;
+    margin-top: 80px;
+}
 
+/* holiday sale section related styles */
 
+.holiday-sale-heading {
+    margin: auto;
+    text-align: center;
+    margin-bottom: 64px;
+}
+
+.sale-h4 {
+    color: #070211;
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.sale-h1 span {
+    color: red;
+}
+
+.sale-h1 {
+    color: #070211;
+    font-family: "Merriweather";
+    font-size: 72px;
+    font-weight: 900;
+    margin-bottom: 28px;
+}
+
+.sale-p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: "inter";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
 }
