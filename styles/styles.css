@@ -331,11 +331,12 @@ header {
     font-size: 48px;
     font-weight: 900;
     margin-bottom: 22px;
+    font-family: "Merriweather";
 }
 
 .portfolio-p {
     color: rgba(7, 2, 17, 0.60);
-    font-family: " Inter";
+    font-family: "inter";
     font-size: 20px;
     font-weight: 400;
     line-height: 32px;
@@ -352,4 +353,76 @@ header {
     width: 520px;
     height: 520px;
     flex-shrink: 0;
+}
+
+/* -----------news letter related styles--------------- */
+
+.news-letter {
+    width: auto;
+    height: 616px;
+    background: rgba(255, 0, 0, 0.05);
+    border-radius: 16px;
+    text-align: center;
+}
+
+.news-letter-section {
+    margin: 120px 140px;
+}
+
+.news-h1 {
+    color: #070211;
+    font-family: "Merriweather";
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.news-p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: "Inter";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.news-form {
+margin: 48px 660px 70px 366px;
+}
+
+.email-input {
+    text-align: center;
+    border-radius: 50px 0 0 50px;
+    background: #FFF;
+    padding: 20px 250px 20px 30px;
+    color: rgba(7, 2, 17, 0.30);
+    font-family: "Inter";
+    font-size: 18px;
+    font-weight: 400;
+    border: none;
+}
+
+.sub-input {
+    color: #FFF;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    border: none;
+    padding: 18px 50px;
+    position: absolute;
+    margin-left: 0;
+    cursor: pointer;
+}
+.news-header img {
+    margin: 70px 0 30px 0;
+}
+input[type="email"]:focus {
+    outline: none;
+    background-color:aliceblue;
+}
+input[type="submit"]:focus{
+background-color: black;
+transition: 1.5s;
 }
