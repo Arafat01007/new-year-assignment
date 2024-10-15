@@ -261,3 +261,56 @@ header {
     font-weight: 500;
     line-height: 32px;
 }
+
+.holiday-sale-img {
+    margin: auto;
+    width: 85%;
+    height: 85vh;
+    position: relative;
+}
+
+.img0 {
+    position: absolute;
+    left: 62%;
+    z-index: 1;
+    margin-top: 140px;
+}
+
+.img3 {
+    width: 45%;
+    position: absolute;
+    bottom: 0;
+    left: 5%;
+}
+
+.img3 img {
+    width: 100%;
+}
+
+.img2 {
+    width: 30%;
+    position: absolute;
+    right: 0;
+    bottom: 30%;
+}
+
+.img2 img {
+    width: 100%;
+    vertical-align: middle;
+}
+
+.img1 {
+    width: 100%;
+    height: 30%;
+    position: absolute;
+    bottom: 0;
+}
+
+.img1 img {
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+}
+
+/* portfolio section related styles */
+
