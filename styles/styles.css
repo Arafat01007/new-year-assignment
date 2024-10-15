@@ -386,7 +386,7 @@ header {
 }
 
 .news-form {
-margin: 48px 660px 70px 366px;
+    margin: 48px 660px 70px 366px;
 }
 
 .email-input {
@@ -415,14 +415,83 @@ margin: 48px 660px 70px 366px;
     margin-left: 0;
     cursor: pointer;
 }
+
 .news-header img {
     margin: 70px 0 30px 0;
 }
+
 input[type="email"]:focus {
     outline: none;
-    background-color:aliceblue;
+    background-color: aliceblue;
 }
-input[type="submit"]:focus{
-background-color: black;
-transition: 1.5s;
+
+input[type="submit"]:focus {
+    background-color: black;
+    transition: 1.5s;
+}
+
+/* footer related styles */
+
+footer {
+    background-color: #070211;
+    width: 1903px;
+    height: 609px;
+}
+
+.phone-n-address {
+    display: flex;
+    justify-content: space-between;
+}
+
+.address {
+    color: #FFF;
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    margin-top: 100px;
+    margin-left: 140px;
+}
+
+.phone {
+    color: #FFF;
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    margin-top: 100px;
+    margin-right: 275px;
+}
+
+hr {
+    background: rgba(255, 255, 255, 0.15);
+    height: 0.1px;
+    margin: 50px 140px;
+}
+
+.footer-a-links {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-footer h4 {
+    color: #FFF;
+    font-family: " Inter";
+    font-size: 24px;
+    font-weight: 500;
+}
+.footer-footer {
+    display: flex;
+    justify-content: space-between;
+}
+.foot-h4-4 {
+    margin-bottom: 120px;
+    margin-left: 140px;
+}
+.foot-h4-3 {
+    cursor: pointer;
+    margin-bottom: 120px;
+    margin-right: 140px;
 }
